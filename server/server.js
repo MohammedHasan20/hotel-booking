@@ -4,7 +4,7 @@ const express=require("express");
 const dotenv=require('dotenv');
 const cors=require('cors');
 const connectDB=require("./config/db");
-const clerkMiddleware=require('@clerk/express');
+const {clerkMiddleware}=require('@clerk/express');
 const { clerkWebhooks } = require("./controllers/clerkWebhooks");
 
 
