@@ -1,3 +1,4 @@
+// 
 const mongoose=require('mongoose');
 
 
@@ -25,7 +26,7 @@ const userSchema=mongoose.Schema({
     },
     recentSearchCities:[{
         type:String,
-        required:true
+        // The 'required: true' has been removed
     }],
 },{timestamps: true});
 
