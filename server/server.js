@@ -1,5 +1,6 @@
 // //Importing the for packages 
 
+<<<<<<< HEAD
 // const express=require("express");
 // const dotenv=require('dotenv');
 // const cors=require('cors');
@@ -47,6 +48,13 @@ const dotenv = require('dotenv');
 const cors = require('cors');
 const connectDB = require("./config/db");
 const { clerkMiddleware } = require('@clerk/express');
+=======
+const express=require("express");
+const dotenv=require('dotenv');
+const cors=require('cors');
+const connectDB=require("./config/db");
+const {clerkMiddleware}=require('@clerk/express');
+>>>>>>> 8e63021dee7a61d4a81e446d8c8e74891d5e1977
 const { clerkWebhooks } = require("./controllers/clerkWebhooks");
 
 // Config to use the packages
